@@ -1,0 +1,83 @@
+.pop{
+    width: 30vw;;
+    height: 20vh;
+    position: absolute;
+    top:40vh;
+    left:35vw;
+    background-color: #265faa;
+    visibility: visible;
+    z-index: 500;
+    text-align: center;
+    /* animation: fade 1s linear; */
+    color:white
+}
+body{
+    background-color: rgb(134, 166, 235);
+}
+#user{
+    text-align: center;
+    width:40%;
+}
+.perst{
+    width: 49.5vw;;
+    height: 85vh;
+    position: absolute;
+    top:15vh;
+    left:0;
+    text-align: center;
+    background-color: #4287e0;
+    overflow: auto;
+}
+.closa{
+    width: 49.5vw;;
+    height: 85vh;
+    position: absolute;
+    top:15vh;
+    left:50.5vw;
+    background-color: #4287e0;
+    text-align: center;
+    overflow: auto;
+}
+.dark{
+    width: 100vw;
+    height:100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #00000050;
+    z-index: 499;
+}
+.closas{
+    position: relative;
+    width:80%;
+    left:10%;
+    height:20vh;
+    background-color: #265faa;
+    margin-top: 20px;
+
+}
+.d{
+    
+    height:75vh;
+    overflow-y: hidden;
+}
+.messages{
+    color: white;
+    font-size: 4vh;;
+    position: relative;
+    height: 30%;
+    top:30%;
+}
+.close{
+    color: white;
+    font-size: 4vh;;
+    position: relative;
+    height: 5%;
+    width:5%;
+    left:93%;
+    top:0%;
+
+}
+.close:hover{
+    cursor: pointer;
+}

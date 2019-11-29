@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WebSockets</title>
+    
+    <link rel="stylesheet" href="static/index.css">
+  </head>
+  <body>
+    <!-- <button onClick="sendMsg()">Hit Me</button> -->
+    
+    <div id="dark" class="dark"></div>
+    <div id="popup" class="pop">
+        <span style="font-size: 5vh;">User:</span><br><br>
+        <input type="text" id="user" value="1" />
+        <br/><br>
+      <button onclick="socketRegister()">Register</button>
+    </div>
+    <div id="perst" class="perst">
+      <span style="text-align: center;color:#265faa;font-size: 10vh;width:100%">Persistant Data</span>
+      <div id="di">
+           
+        </div>
+    </div>
+    <div id="closa" class="closa">
+        <span style="text-align: center;color:#265faa;font-size: 10vh;width:100%">Closable Notifications</span>
+        
+        <div id="d">
+           
+        </div>
+      
+      </div>
+
+    
+    <h2 style="text-align: center;color:#265faa;font-size: 10vh;">Sockets-UI-Notifications</h2>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script src="./static/index.js"></script>
+    <script>
+      
+    </script>
+  </body>
+</html>
