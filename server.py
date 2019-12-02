@@ -24,6 +24,7 @@ sids=[]
 # would with no change
 async def index(request):
     with open('index.html') as f:
+        
         return web.Response(text=f.read(), content_type='text/html')
 async def send_message(request):
     data = await request.json()
@@ -76,4 +77,5 @@ app.router.add_static('/static/',path="./static/")
 
 # We kick off our server
 if __name__ == '__main__':
+    r.flushdb()
     web.run_app(app)

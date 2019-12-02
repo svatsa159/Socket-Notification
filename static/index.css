@@ -48,25 +48,21 @@ body{
     z-index: 499;
 }
 .closas{
+    padding-top: 0px;
     position: relative;
-    width:80%;
-    left:10%;
-    height:20vh;
+    width:60%;
+    left:20%;
+    height:10vh;
     background-color: #265faa;
     margin-top: 20px;
 
-}
-.d{
-    
-    height:75vh;
-    overflow-y: hidden;
 }
 .messages{
     color: white;
     font-size: 4vh;;
     position: relative;
     height: 30%;
-    top:30%;
+    top:20%;
 }
 .close{
     color: white;
@@ -76,7 +72,7 @@ body{
     width:5%;
     left:93%;
     top:0%;
-
+    z-index: 10;
 }
 .close:hover{
     cursor: pointer;
